@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Encriptador<br>a</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="encriptar">
+                    <textarea name="texto" id="Texto" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+                </div>
+                <div class="terminos">
+                    <p>Instrucciones:</p>
+                        <li>Solo letras minusculas</li>
+                        <li>Sin acentos</li>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                     <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="" alt="" id="">
+                <div class="mensaje" id="mensaje">
+                    <h2 id="titulo">No se encuentra texto</h2>
+                    <p id="parrafo">Ingresa el texto</p>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje" placeholder=""></textarea>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+          <h2>Realizado por Dahyanna Velasquez para Alura Latam</h2>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
