@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container-titulo">
             <h1>Encriptador<br>a</h1>
         </div>
     </header>
@@ -16,30 +16,27 @@
         <section>
             <div class="container">
                 <div class="encriptar">
-                    <textarea name="texto" id="Texto" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+                    <textarea name="texto" id="texto" cols="30" rows="10" class="texto" placeholder="Ingresa el texto aquí"></textarea>
                 </div>
                 <div class="terminos">
-                    <p>Instrucciones:</p>
-                        <li>Solo letras minusculas</li>
-                        <li>Sin acentos</li>
+                    <p>Instrucciones: Solo letras minusculas y sin acentos</p>    
                 </div>
                 <div class="botones">
                     <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
                      <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
                 </div>
-            </div>
-            <div class="imagenes">
+                <div class="imagenes">
                 <img src="" alt="" id="">
                 <div class="mensaje" id="mensaje">
                     <h2 id="titulo">No se encuentra texto</h2>
                     <p id="parrafo">Ingresa el texto</p>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje" placeholder=""></textarea>
                 </div>
+            </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="container">
+        <div class="container-pie">
           <h2>Realizado por Dahyanna Velasquez para Alura Latam</h2>
         </div>
     </footer>
